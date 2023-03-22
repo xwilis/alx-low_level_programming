@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<string.h>
-#include<main.h>
+#include "main.h"
 /**
  * Main - Entry Point Of Programs
  * Variables
  *
  * Return : Always 0 (Success)
  */
-int main(void)
+char _putchar(void)
 {
 char letter;
 char ns = '_';
@@ -27,5 +27,10 @@ putchar (letter);
 letter = 'r';
 putchar(letter);
 putchar('\n');
+return (0);
+}
+int main(void)
+{
+_putchar();
 return (0);
 }
