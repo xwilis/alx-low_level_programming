@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<main.h>
 /**
  * Main - Entry Point Of Programs
  * Variables
