@@ -1,23 +1,17 @@
 #include "main.h"
+
 /**
-* Function -  print
-* Conditional: Statement
-* Return: Always 0
-*/
+ * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
+ */
 void print_alphabet_x10(void)
 {
-	for (int a = 0; a < 10; a++)
+	int count = 0;
+	char ops;
+
+	while (count++ <= 9)
 	{
-		for (char xi = 'a'; xi <= 'z'; xi++)
-		{
-			putchar(xi);
-		}
-		putchar('\n');
+		for (ops = 'a'; ops <= 'z'; ops++)
+			_putchar(letter);
+		_putchar('\n');
 	}
-	return (0);
-}
-int main(void)
-{
-	print_alphabet_x10();
-	//return (0);
 }
